@@ -1,5 +1,9 @@
 const Workout = require("../models/workoutModel");
 const mongoose = require("mongoose");
+const express = require("express")
+
+//express app
+const app = express()
 
 // Get all workouts
 const getWorkouts = async (req, res) => {
